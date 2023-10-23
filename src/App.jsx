@@ -11,33 +11,32 @@ import Projects from './pages/projects/Projects';
 
 
 
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 function App() {
   return (
     <div>
       <Router>
         <Navbar></Navbar>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/skills">
-            <Skills />
-          </Route>
-          <Route exact path="/edu">
-            <Edu />
-          </Route>
-          <Route exact path="/exp">
-            <Exp />
-          </Route>
-          <Route exact path="/projects">
-            <Projects />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route exact path="/"element={<Home />}/>
+          
+          <Route exact path="/about"element={<About />}/>
+         
+      
+          <Route exact path="/skills"element={<Skills />}/>
+     
+        
+          <Route exact path="/edu"element={<Edu />}/>
+        
+     
+          <Route exact path="/exp"element={<Exp />}/>
+     
+       
+          <Route exact path="/projects"element={<Projects />}/>
+      
+
+        </Routes>
       </Router>
     </div>
   );
