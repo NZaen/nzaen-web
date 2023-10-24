@@ -19,7 +19,7 @@ function Navbar() {
   }, [theme]);
 
   return (
-    <div className="navbar bg-base-100 sticky top-0 z-50">
+    <div className="fixed navbar bg-base-100 z-50">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -48,9 +48,7 @@ function Navbar() {
             <li>
           <a>Documents</a>
           <ul className="p-2">
-            <li><a>SPM</a></li>
-            <li><a>Foundation</a></li>
-            <li><a>Degree</a></li>
+          <li><a><Link to="/assets/downloads/Resume.pdf" target="_blank" download>Resume</Link></a></li>
           </ul>
         </li>
           </ul>
@@ -67,9 +65,7 @@ function Navbar() {
         <details>
           <summary>Documents</summary>
           <ul className="p-2">
-          <li><a>SPM</a></li>
-            <li><a>Foundation</a></li>
-            <li><a>Degree</a></li>
+          <li><a><Link to="/assets/downloads/Resume.pdf" target="_blank" download>Resume</Link></a></li>
           </ul>
         </details>
       </li>

@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="">
-      <div className="hero min-h-screen min-w">
+      <div className=" items-center bg-center min-h-screen lg:min-w-ful pt-20 lg:hero">
         <div className="hero-content text-center flex-col lg:flex-row">
-          <div className="indicator m-3">
-            <span className="indicator-item indicator-center badge badge-primary p-6 lg:p-10 text-3xl lg:text-5xl font-b md:hidden">
+          <div className="indicator ">
+            <span className="indicator-item indicator-center badge badge-primary p-6 lg:p-10 text-3xl lg:text-5xl font-b sm:hidden shadow-lg">
               Hello!
             </span>
-            <span className="indicator-item badge badge-primary p-6 lg:p-10 text-3xl lg:text-5xl font-b invisible md:visible">
+            <span className="indicator-item badge badge-primary p-6 lg:p-10 text-3xl lg:text-5xl font-b invisible sm:visible shadow-lg">
               Hello!
             </span>
             <img
@@ -24,7 +24,7 @@ function Home() {
               Your friendly neighbourhood Computer Science freshgrad based in
               Petaling Jaya
             </h2>
-            <button className="btn btn-primary ">
+            <button className="btn btn-primary shadow-lg ">
               <Link to="/projects">Check out my projects</Link>
             </button>
           </div>
@@ -52,7 +52,7 @@ function Home() {
             <h1 className="text-5xl font-bold pb-5">Skills</h1>
             <div
               tabIndex={0}
-              className="collapse collapse-arrow bg-primary m-5"
+              className="collapse collapse-arrow bg-primary m-5 shadow-lg"
             >
               <input type="checkbox" />
               <div className="collapse-title text-xl font-bold">
@@ -72,7 +72,7 @@ function Home() {
             </div>
             <div
               tabIndex={0}
-              className="collapse collapse-arrow  bg-primary bg-opacity-40 m-5"
+              className="collapse collapse-arrow  bg-primary bg-opacity-40 m-5 shadow-lg"
             >
               <input type="checkbox" />
               <div className="collapse-title text-xl font-bold">
@@ -88,7 +88,7 @@ function Home() {
             </div>
             <div
               tabIndex={0}
-              className="collapse collapse-arrow  bg-primary   m-5"
+              className="collapse collapse-arrow  bg-primary   m-5 shadow-lg"
             >
               <input type="checkbox" />
               <div className="collapse-title text-xl font-bold">General</div>
@@ -104,7 +104,7 @@ function Home() {
             </div>
             <div
               tabIndex={0}
-              className="collapse collapse-arrow  bg-primary bg-opacity-40  m-5"
+              className="collapse collapse-arrow  bg-primary bg-opacity-40  m-5 shadow-lg"
             >
               <input type="checkbox" />
               <div className="collapse-title text-xl font-bold">Others</div>
@@ -139,7 +139,7 @@ function Home() {
             </div>
             <div
               tabIndex={0}
-              className="collapse collapse-arrow  bg-primary bg-opacity-40 m-5"
+              className="collapse collapse-arrow  bg-primary bg-opacity-40 m-5 shadow-lg"
             >
               <input type="checkbox" />
               <div className="collapse-title text-xl font-bold">
@@ -160,7 +160,7 @@ function Home() {
             <h1 className="text-5xl font-bold pb-5  ">Certificates</h1>
             <div
               tabIndex={0}
-              className="collapse collapse-arrow bg-primary m-5"
+              className="collapse collapse-arrow bg-primary m-5 shadow-lg"
             >
               <input type="checkbox" />
               <div className="collapse-title text-xl font-bold">
@@ -180,7 +180,7 @@ function Home() {
 
             <div
               tabIndex={0}
-              className="collapse collapse-arrow  bg-primary bg-opacity-40 m-5"
+              className="collapse collapse-arrow  bg-primary bg-opacity-40 m-5 shadow-lg"
             >
               <input type="checkbox" />
               <div className="collapse-title text-xl font-bold">
@@ -196,7 +196,7 @@ function Home() {
 
             <div
               tabIndex={0}
-              className="collapse collapse-arrow  bg-primary  m-5"
+              className="collapse collapse-arrow  bg-primary  m-5 shadow-lg"
             >
               <input type="checkbox" />
               <div className="collapse-title text-xl font-bold">
@@ -216,7 +216,7 @@ function Home() {
             <h1 className="text-5xl font-bold pb-5  ">Experiences</h1>
             <div
               tabIndex={0}
-              className="collapse collapse-arrow bg-primary m-5"
+              className="collapse collapse-arrow bg-primary m-5 shadow-lg"
             >
               <input type="checkbox" />
               <div className="collapse-title text-xl font-bold">
