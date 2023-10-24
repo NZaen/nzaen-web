@@ -19,7 +19,7 @@ function Navbar() {
   }, [theme]);
 
   return (
-    <div className="navbar bg-base-100 sticky top-0 z-50 mb-0">
+    <div className="navbar bg-base-100 sticky top-0 z-50">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -43,29 +43,36 @@ function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a><Link to="/edu">Education</Link></a>
-            </li>
-            <li>
-              <a><Link to="/exp">Experience</Link></a>
-            </li>
-            <li>
               <a><Link to="/projects">Projects</Link></a>
             </li>
+            <li>
+          <a>Documents</a>
+          <ul className="p-2">
+            <li><a>SPM</a></li>
+            <li><a>Foundation</a></li>
+            <li><a>Degree</a></li>
+          </ul>
+        </li>
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-xl"><Link to="/">NZaen</Link></a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li>
-            <a><Link to="/edu">Education</Link></a>
-          </li>
-          <li>
-            <a><Link to="/exp">Experience</Link></a>
-          </li>
+
           <li>
             <a><Link to="/projects">Projects</Link></a>
           </li>
+          <li tabIndex={0}>
+        <details>
+          <summary>Documents</summary>
+          <ul className="p-2">
+          <li><a>SPM</a></li>
+            <li><a>Foundation</a></li>
+            <li><a>Degree</a></li>
+          </ul>
+        </details>
+      </li>
         </ul>
       </div>
       <div className="navbar-end">
