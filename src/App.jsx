@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
@@ -26,6 +27,17 @@ function App() {
 
         </Routes>
         <Footer/>
+        <FloatingWhatsApp
+        phoneNumber="601131707849"
+        accountName="Zaen"
+        avatar="assets/images/capy.jpg"
+        chatMessage="Do you have any questions? Feel free to ask me about anything :D"
+        statusMessage="Online"
+        allowEsc
+        allowClickAway
+        notification
+        notificationSound
+      />
       </Router>
     </div>
   );

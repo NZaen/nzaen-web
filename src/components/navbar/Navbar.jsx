@@ -45,12 +45,11 @@ function Navbar() {
             <li>
               <a><Link to="/projects">Projects</Link></a>
             </li>
-            <li>
-          <a>Documents</a>
-          <ul className="p-2">
+         
+        
           <li><a><Link to="/assets/downloads/Resume.pdf" target="_blank" download>Resume</Link></a></li>
-          </ul>
-        </li>
+        
+        
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-xl"><Link to="/">NZaen</Link></a>
@@ -61,14 +60,9 @@ function Navbar() {
           <li>
             <a><Link to="/projects">Projects</Link></a>
           </li>
-          <li tabIndex={0}>
-        <details>
-          <summary>Documents</summary>
-          <ul className="p-2">
+     
           <li><a><Link to="/assets/downloads/Resume.pdf" target="_blank" download>Resume</Link></a></li>
-          </ul>
-        </details>
-      </li>
+   
         </ul>
       </div>
       <div className="navbar-end">

@@ -23,10 +23,11 @@ function projects() {
       <div className="badge badge-outline">Firebase</div>
      
     </div>
-    <p>Web system designed to facilitate
-collaborative assessment of various types of media through the use of
-questionnaires in order to
+    <p>Admin portion of Evaluway designed to facilitate
+collaborative assessment of various types of media through the creation of
+questionnaires for users in order to
 generate real time analytics</p>
+<p>Note : It is designed for desktop devices</p>
 <p>admin@admin.com // admin123</p>
 
 
@@ -47,7 +48,9 @@ generate real time analytics</p>
       <div className="badge badge-outline">Firebase</div>
      
     </div>
-    <p>Web system designed to answer questionnaires produced by administrators using Evaluway Admin as well as give feedback based on the overall usage of the system</p>
+    <p>User portion of Evaluway designed to answer questionnaires 
+      produced by administrators using Evaluway Admin as well as give feedback based on the overall usage of the system</p>
+      <p>Note : It is designed for desktop devices</p>
     <p>user1@user.com // user123</p>
     <div className="card-actions justify-end">
       <button className='btn btn-primary mt-3' onClick={() => openInNewTab("https://evaluway-user.web.app/")}>Enter Site</button>
