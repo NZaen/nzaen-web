@@ -11,7 +11,22 @@ function projects() {
     <div className="hero min-h-screen bg-base-100 mt-5">
   <div className="hero-content p-10 flex flex-col w-full lg:flex-row lg:items-start ">
 
- 
+  <div className="card bg-base-100 shadow-xl max-w-md lg:max-w-s m-5" >
+  <figure><img src="/assets/images/ethiculture.jpg" alt="Album"/></figure>
+  <div className="card-body">
+    <h2 className="card-title">Ethiculture.co</h2>
+    <div className="card-actions justify-start">
+    <div className="badge badge-outline">WordPress</div>
+     
+    </div>
+    <p>This is the webpage for Ethiculture. The founder reached out to me to develop a website for her independent agency, 
+      the finalised layout and contents were decided after many discussions and meetings</p>
+      <p>Note : It is designed for both desktop and mobile devices</p>
+    <div className="card-actions justify-end">
+      <button className='btn btn-primary mt-3' onClick={() => openInNewTab("https://ethiculture.co/")}>Enter Site</button>
+    </div>
+  </div>
+</div>
 
 <div className="card bg-base-100 shadow-xl max-w-md lg:max-w-s m-5" >
   <figure><img src="/assets/images/evaluwayadmin.jpg" alt="Album"/></figure>
@@ -57,6 +72,8 @@ generate real time analytics</p>
     </div>
   </div>
 </div>
+
+
 
     </div>
     </div>

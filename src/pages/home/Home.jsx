@@ -66,7 +66,7 @@ function Home() {
                   <li>CSS</li>
                   <li>Javascript</li>
                   <li>Firebase</li>
-                  <li>Wordpress</li>
+                  <li>WordPress</li>
                 </ul>
               </div>
             </div>
