@@ -1,4 +1,6 @@
-Personal website that showcases my skills and projects developed using React + Vite + Tailwind CSS + DaisyUI + Firebase
+# NZaen
+
+#### Personal website that showcases my skills and projects developed using React + Vite + Tailwind CSS + DaisyUI + Firebase
 
 Instructions : 
 1. Install Node.js v18.18.2
