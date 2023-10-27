@@ -1,8 +1,9 @@
-# React + Vite
+# NZaen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Personal website that showcases my skills and projects developed using React + Vite + Tailwind CSS + DaisyUI + Firebase
 
-Currently, two official plugins are available:
+Instructions : 
+1. Install Node.js v18.18.2
+2. Open "daisydaisy" on VS Code or alternatives
+3. Run "npm run dev" on Command Line
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
